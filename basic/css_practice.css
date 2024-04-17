@@ -1,0 +1,42 @@
+/* ID 선택자 */
+#title {
+	text-decoration: underline;
+	font-weight: bold;
+}
+/* 클래스 선택자 */
+.description {
+	color: grey;
+}
+
+/* 태그 선택자 */
+p {
+	font-style: italic;
+}
+
+/* 자석 선택자 */
+div p {
+	font-style: normal;
+	color: red;
+}
+
+.background-img {
+	width: 500px;
+	height: 300px;
+	background-image: url('../portfolio/profileImage.jpeg');
+	background-position: center;
+}
+
+.box-model {
+	width: 400px;
+	height: 200px;
+
+	border: 3px solid red;
+	border-radius: 20px;
+
+	background: linear-gradient(#13e3, #12459a);
+	padding: 20px;
+	margin: 10px 20px 30px;
+	/* box-shadow: inset 5px 10px 0, 10px 10px 10px yellow; */
+	box-shadow: 5px 10px 5px blue, 10px 10px yellow, inset 5px 5px 10px black;
+	opacity: 0.5;
+}
