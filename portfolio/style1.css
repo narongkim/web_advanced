@@ -1,3 +1,7 @@
+body {
+	margin: 0;
+}
+
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -33,4 +37,33 @@ li a {
 }
 .contact-logo img {
 	width: 30px;
+}
+
+#title {
+	display: flex;
+	margin: 110px 10%;
+	justify-content: space-between;
+}
+
+.title-text {
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+.text-em {
+	background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.title-img {
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	border: 6px solid transparent;
+	background-image: linear-gradient(#fff, #fff),
+		linear-gradient(180deg, #e70faa 0%, #00c0fd 100%);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
 }
