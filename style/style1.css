@@ -121,3 +121,60 @@ li a {
 	margin: 30px;
 }
 
+/* -------------- projects -------------- */
+.projects-items {
+	display: flex;
+	margin: 0 10%;
+	justify-content: space-between;
+	filter: drop-shadow(2px 2px 100px rgba(0, 0, 0, 0.2));
+}
+.projects-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/* border: 1px black solid; */
+	border-radius: 20px;
+	width: 300px;
+	height: 500px;
+	/* box-shadow: 2px 2px 100px 5px rgba(0, 0, 0, 0.2); */
+
+	background-color: white;
+}
+
+.projects-item img {
+	border-radius: 20px 20px 0px 0px;
+}
+
+.projects-item .project-text-container h4 {
+	margin: 0;
+}
+
+.projects-item .project-text-container {
+	display: flex;
+	flex-direction: column;
+	height: 300px;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.project-description {
+	color: #666666;
+}
+
+.project-techstacks {
+	color: #42446e;
+}
+
+.link-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.link-container a {
+	color: black;
+}
+
+.link-container div {
+	display: flex;
+	align-items: center;
+}
