@@ -2,6 +2,8 @@ body {
 	margin: 0;
 }
 
+/* -------------- nav -------------- */
+
 nav {
 	display: flex;
 	justify-content: space-between;
@@ -39,6 +41,8 @@ li a {
 	width: 30px;
 }
 
+/* -------------- title -------------- */
+
 #title {
 	display: flex;
 	margin: 110px 10%;
@@ -48,6 +52,7 @@ li a {
 .title-text {
 	font-size: 50px;
 	font-weight: bolder;
+	margin: 0;
 }
 
 .text-em {
@@ -68,13 +73,15 @@ li a {
 	background-clip: content-box, border-box;
 }
 
+/* -------------- introduction -------------- */
+
 #intro {
 	background: linear-gradient(
 		96.29deg,
 		rgba(189, 210, 255, 0.4) 1.72%,
 		rgba(116, 224, 215, 0.4) 158.93%
 	);
-	padding: 30px 10%;
+	padding: 50px 10%;
 }
 
 #intro ul {
