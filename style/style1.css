@@ -178,3 +178,11 @@ li a {
 	display: flex;
 	align-items: center;
 }
+
+/* -------------- footer -------------- */
+
+.footer-contacts {
+	display: flex;
+	justify-content: space-between;
+	gap: 100px;
+}
