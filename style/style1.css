@@ -193,3 +193,16 @@ li a {
 	justify-content: space-between;
 	gap: 50px;
 }
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	margin: 20px;
+}
+
+.copyright span {
+	background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
