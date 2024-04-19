@@ -2,6 +2,12 @@ body {
 	margin: 0;
 }
 
+.mobile {
+	display: none;
+}
+.desktop {
+	display: inline;
+}
 /* -------------- nav -------------- */
 
 nav {
@@ -12,7 +18,7 @@ nav {
 	margin-top: 10px;
 }
 
-nav ul {
+nav .desktop {
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -49,7 +55,8 @@ li a {
 	justify-content: space-between;
 }
 
-.title-text {
+#title .desktop {
+	display: block;
 	font-size: 50px;
 	font-weight: bolder;
 	margin: 0;
@@ -131,19 +138,18 @@ li a {
 /* -------------- projects -------------- */
 .projects-items {
 	display: flex;
-	margin: 0 10%;
+	margin: 0 10vw;
 	justify-content: space-between;
 	filter: drop-shadow(2px 2px 100px rgba(0, 0, 0, 0.2));
+	gap: 30px;
 }
 .projects-item {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	/* border: 1px black solid; */
 	border-radius: 20px;
 	width: 300px;
 	height: 500px;
-	/* box-shadow: 2px 2px 100px 5px rgba(0, 0, 0, 0.2); */
 
 	background-color: white;
 }
@@ -205,4 +211,12 @@ li a {
 	background-clip: text;
 	-webkit-background-clip: text;
 	color: transparent;
+}
+
+.copyright br {
+	display: none;
+}
+
+footer hr {
+	margin: 0 8vw;
 }

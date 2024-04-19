@@ -1,0 +1,151 @@
+.desktop {
+	display: none;
+}
+
+.mobile {
+	display: inline;
+}
+
+/* -------------- nav -------------- */
+
+nav {
+	flex-wrap: wrap;
+}
+
+nav .desktop {
+	display: none;
+}
+
+nav .mobile {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.logo {
+	width: 100px;
+}
+
+/* -------------- title -------------- */
+
+#title {
+	display: flex;
+	flex-direction: column;
+	margin: 50px auto;
+	align-items: center;
+	text-align: center;
+}
+
+#title .desktop {
+	display: none;
+}
+
+#title .mobile {
+	display: block;
+	font-size: 28px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.text-em {
+	background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.title-img {
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	border: 6px solid transparent;
+	background-image: linear-gradient(#fff, #fff),
+		linear-gradient(180deg, #e70faa 0%, #00c0fd 100%);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+
+/* -------------- introduction -------------- */
+
+#intro {
+	background: linear-gradient(
+		96.29deg,
+		rgba(189, 210, 255, 0.4) 1.72%,
+		rgba(116, 224, 215, 0.4) 158.93%
+	);
+	padding: 50px 10%;
+}
+
+#intro ul {
+	margin: 0;
+	padding: 0 0 0 20px;
+}
+
+#intro h3 {
+	margin: 0 0 15px 0;
+}
+
+/* -------------- tech-stack -------------- */
+
+.section {
+	margin: 100px 0px;
+}
+.section-title {
+	font-size: 24px;
+	letter-spacing: -0.02em;
+}
+
+.section-description {
+	font-size: 14px;
+}
+
+#tech-stack .tech-stack-container img {
+	height: 80px;
+	margin: 5px;
+}
+
+/* -------------- projects -------------- */
+.projects-items {
+	display: flex;
+	flex-direction: column;
+	margin: 0.1vh;
+	align-items: center;
+	filter: drop-shadow(2px 2px 100px rgba(0, 0, 0, 0.2));
+	gap: 20px 0;
+}
+
+.projects-item {
+	margin-bottom: 0.1vh;
+}
+/* -------------- footer -------------- */
+
+.footer-contacts {
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 24px;
+}
+
+footer nav .logo {
+	margin-right: 0px;
+}
+
+.copyright {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+}
+
+.copyright span {
+	background: linear-gradient(90deg, #13b0f5 -2.06%, #e70faa 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+}
+
+.copyright br {
+	display: inline;
+}
