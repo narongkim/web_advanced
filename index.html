@@ -5,7 +5,13 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>PortFolio</title>
-		<link rel="stylesheet" href="./style/style1.css" />
+		<link re="stylesheet" href="./style/reset.css" />
+		<link rel="stylesheet" media="screen" href="./style/style1.css" />
+		<link
+			rel="stylesheet"
+			media="(max-width: 768px)"
+			href="./style/style1-responsive.css"
+		/>
 	</head>
 	<body>
 		<nav>
@@ -15,7 +21,7 @@
 				src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/7a3ec529632909.55fc107b84b8c.png"
 			/>
 			<!-- menu -->
-			<ul>
+			<ul class="desktop">
 				<li>
 					<a href="#">Home</a>
 				</li>
@@ -55,11 +61,28 @@
 					/>
 				</a>
 			</div>
+			<ul class="mobile">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">About</a>
+				</li>
+				<li>
+					<a href="#">Tech Stack</a>
+				</li>
+				<li>
+					<a href="#">Projects</a>
+				</li>
+				<li>
+					<a href="#">Contact</a>
+				</li>
+			</ul>
 		</nav>
 
 		<!-- section: title -->
 		<section id="title">
-			<h1 class="title-text">
+			<h1 class="title-text desktop">
 				Hi 😎,<br />
 				My name is <br />
 				<text class="text-em"> Yejin Kim <br /> </text>
@@ -67,6 +90,12 @@
 			</h1>
 
 			<img class="title-img" src="./images/crayonshinchan.jpg" width="350" />
+
+			<h1 class="title-text mobile">
+				Hi 😎,<br />
+				My name is <text class="text-em"> Yejin Kim <br /></text> I build things
+				for web <br />
+			</h1>
 		</section>
 
 		<!-- section: self-introduction -->
@@ -289,7 +318,7 @@
 
 				<!-- contacts -->
 				<div class="footer-contacts">
-					<text> +82 1000000000 </text>
+					<text class="desktop"> +82 1000000000 </text>
 					<text> sopia606@naver.com </text>
 					<span>
 						<a
@@ -323,8 +352,10 @@
 			<hr />
 			<div class="copyright">
 				Designed and built by
-				<span>&nbsp;Pavan MG</span>&nbsp;with
-				<span>&nbsp;Love & Coffee </span>
+				<div>
+					<span>&nbsp;Pavan MG</span>&nbsp;with
+					<span>Love & Coffee </span>
+				</div>
 			</div>
 		</footer>
 	</body>
